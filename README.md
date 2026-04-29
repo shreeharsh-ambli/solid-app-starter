@@ -4,6 +4,9 @@ A production-ready, high-performance starter template for **SolidJS**, and a pre
 
 This template is designed to eliminate "setup fatigue" by providing a fully functional environment with a modern, utility-first CSS setup and accessible UI components ready to use out of the box.
 
+<img width="1195" height="750" alt="image" src="https://github.com/user-attachments/assets/5e06c2ea-b8d4-4d88-aa0f-a8efe93827dd" />
+
+
 ## ✨ Key Features
 
 - **⚡ SolidJS**: The fine-grained reactivity you love for ultra-fast performance.
