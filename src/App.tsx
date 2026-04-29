@@ -7,7 +7,6 @@ const App: Component = () => {
   return (
     <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
       <Button
-        variant="ghost"
         onClick={() =>
           toast("Title", {
             description: "Description goes here.",
