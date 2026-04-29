@@ -1,12 +1,26 @@
 import type { Component } from 'solid-js';
-
-import logo from './logo.svg';
-import styles from './App.module.css';
+import { toast } from "solid-sonner"
+import { Button } from '../~/components/ui/button';
+import { Toaster } from '../~/components/ui/sonner';
 
 const App: Component = () => {
   return (
-    <div class={styles.App}>
-      <p>it works!</p>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+      <Button
+        variant="ghost"
+        onClick={() =>
+          toast("Title", {
+            description: "Description goes here.",
+            action: {
+              label: "Dismiss",
+              onClick: () => console.log("Undo")
+            }
+          })
+        }
+      >
+        Click Me!
+      </Button>
+      <Toaster />
     </div>
   );
 };
